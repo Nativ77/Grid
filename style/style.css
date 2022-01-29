@@ -18,7 +18,7 @@ body{
     margin: 52px 0;
 }
 .nav-li:not(:first-child) {
-    margin-left: 26px;
+    margin-left: 45px;
 }
 
 .nav-link{
@@ -49,30 +49,30 @@ body{
 }
 
 .button{
+    display: flex;
+    justify-content: center;
     border: none;
     border-radius: 5px;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
-    text-align: center;
     text-transform: uppercase;
     color: #162C38;
     padding: 10px 122px;
     margin: 0 auto;
-    display: block;
  }
 
  .text{
+    display: flex;
+    justify-content: center;
     background-color: #5C98AB;
     padding-top: 133px;
     padding-bottom: 135px;    
  }
+
  .txt{
     max-width: 726px;
     font-size: 36px;
     line-height: 49px;
-    margin: 0 auto;
-    
     color: #FFFFFF;
-
  }
