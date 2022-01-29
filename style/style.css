@@ -49,8 +49,6 @@ body{
 }
 
 .button{
-    display: flex;
-    justify-content: center;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -62,15 +60,18 @@ body{
     margin: 0 auto;
  }
 
- .text{
-    display: flex;
-    justify-content: center;
-    background-color: #5C98AB;
-    padding-top: 133px;
-    padding-bottom: 135px;    
+ .but{
+    text-align: center;
  }
 
+ .text{
+    background-color: #5C98AB;
+    padding-top: 133px;
+    padding-bottom: 135px;  
+  }
+
  .txt{
+    margin: 0 auto;
     max-width: 726px;
     font-size: 36px;
     line-height: 49px;
